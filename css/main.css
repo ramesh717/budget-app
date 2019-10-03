@@ -1,0 +1,30 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css';
+@import  'css-reset.css';
+@import  'home.css';
+@import  'add.css';
+@import  'slide-section.css';
+
+
+body{
+    max-width: 450px;
+    margin: 0 auto;
+    background: #F0F0F0;
+    /* overflow-x: hidden; */
+    /* height: 100vh; */
+    /* overflow-y: hidden; */
+
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+#top-section{
+    background: sticky;
+    /* margin-top: -1rem; */
+
+}
+#bottom-section{
+    background-position: sticky;
+    margin-top: .3rem;
+    z-index: 12;
+}

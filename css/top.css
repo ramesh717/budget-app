@@ -1,0 +1,144 @@
+/*=========================
+
+home top section
+========================= */
+
+#top-section {
+    /* background-attachment: fixed; */
+	background: #070091;
+	padding: 0.5rem 1rem;
+	color: white;
+	font-weight: bold;
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+#top-section .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 1.3rem;
+}
+#top-section .container .fa-bars {
+cursor: pointer;
+}
+#top-section .container .fa-bars:hover {
+color: gray;
+}
+#top-section .container .profile-img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+#top-section .container .profile-img img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+/*
+=========================
+end of  home top section
+================================ */
+#total-balance-section{
+    height: 250px;
+    /* background-image: linear-gradient(to right, #0b00ff, #4300ff, #5e00ff, #7300ff, #8400ff); */
+
+    background: rgb(0,48,255);
+background: linear-gradient(90deg, rgba(0,48,255,1) 0%, rgba(65,61,255,1) 23%, rgba(103,33,255,1) 48%, rgba(145,0,255,1) 100%, rgba(9,9,121,1) 100%);
+    
+}
+#total-balance-section .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+    color: white;
+}
+
+
+
+
+#transaction-section{
+    overflow-y:scroll;
+
+    background: #F0F0F0;
+    height: 300px;
+    margin-top: -3rem;
+    border-radius: 50px 60px 0 0 ;
+    padding: 0 1.1rem;
+    padding-top: 3rem;
+    -webkit-box-shadow: 0px -3px 3px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px -3px 3px 0px rgba(255,255,255,1);
+    box-shadow: 0px -3px 3px 0px rgba(255,255,255,1);
+background-position: fixed;
+}
+#transaction-section .container h3{
+font-size: 1rem;
+color: lightslategrey;
+
+}
+#transaction-section .container .transaction-holder{
+margin-top: 1.5rem;
+
+}
+#transaction-section .container .transaction-holder .box{
+display: flex;
+justify-content: space-between;
+background: white;
+padding: 1.5rem 2rem;
+color: #049053;
+font-weight: bold;
+margin:30px 0;
+overflow: hidden;
+
+}
+#transaction-section .container .transaction-holder .box .red{
+color: red;
+
+
+}
+#transaction-section .container .transaction-holder span{
+display: flex;
+
+}
+#transaction-section .container .transaction-holder .box i{
+color: red;
+transform: translateX(20px);
+cursor: pointer;
+
+}
+
+#bottom-section{
+	background: #4603D5;
+    border-radius: 30px 30px 0 0;
+    margin-top: 3rem;
+    overflow: hidden;
+    z-index: 10;
+    /* bottom: 0;
+    width: 100%;
+    max-width: 400px; */
+    background-position: fixed;
+    /* left:0;
+    right: 0;
+    position: absolute; */
+}
+#bottom-section .container{
+padding: 1rem 3rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 100%;
+font-size: 1.6rem;
+color: white;
+}
+#bottom-section .container i{
+transition: .3s ease-in-out;
+cursor: pointer;
+padding-right: 3rem;
+}
+#bottom-section .container i:hover{
+color: rgb(255, 0, 170);
+}

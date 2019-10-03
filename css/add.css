@@ -1,0 +1,120 @@
+#top-section {
+	position: relative;
+}
+#add-section span {
+	color: white;
+	font-weight: 3rem;
+	border-radius: 50%;
+	padding: 0.5rem 0.7rem;
+	background: black;
+	cursor: pointer;
+	right: 20px;
+	top: 20px;
+	position: absolute;
+	transition: all 0.3s ease-in-out;
+}
+#add-section span:hover {
+	color: black;
+
+	background: white;
+}
+#add-section {
+	background: rgb(0, 48, 255);
+	background: linear-gradient(
+		189deg,
+		rgba(0, 48, 255, 1) 0%,
+		rgba(65, 61, 255, 1) 23%,
+		rgba(103, 33, 255, 1) 48%,
+		rgba(145, 0, 255, 1) 100%,
+		rgba(9, 9, 121, 1) 100%
+	);
+	transform: translateX(-100%);
+	transition: all 0.5s ease-in-out;
+	z-index: 2;
+	overflow: hidden;
+	position: absolute;
+	max-width: 450px;
+	/* top: 0;
+	left: 0;
+	right: 0;
+    bottom: 3%; */
+	width: 100%;
+	overflow: hidden;
+	z-index: 4;
+	height: 100%;
+	background-position: fixed;
+	opacity: 0;
+}
+#add-section.active {
+	opacity: 1;
+	transform: translateX(0);
+}
+#add-section .container {
+	padding: 2rem 0;
+	/* height: 100vh; */
+	width: 90%;
+	margin: 4rem auto;
+}
+#add-section .container h2 {
+	text-align: center;
+	color: white;
+	font-size: 1.3rem;
+}
+
+#add-section .container .add-income,
+#add-section .container .add-expenses {
+	margin-top: 1rem;
+	color: white;
+}
+#add-section .container input[type='number'] {
+	padding: 0.5rem;
+	width: 90%;
+	margin: 0 auto;
+}
+#add-section .container input[type='text'] {
+	padding: 0.5rem;
+	height: 50px;
+	width: 80%;
+	width: 90%;
+	margin: 0 auto;
+}
+#add-section .container .add-income input {
+	display: block;
+	margin: 1rem 0;
+}
+#add-section .container .add-expenses input {
+	display: block;
+	margin: 1rem 0;
+}
+#add-section .container button {
+	cursor: pointer;
+	padding: 0.5rem 2rem;
+	border: none;
+	text-align: center;
+	margin-top: 3rem;
+	color: white;
+	font-weight: bold;
+	font-size: 1.2rem;
+	outline: none;
+	border-radius: 20px;
+	display: inline-block;
+	transition: 0.4s ease-in-out;
+margin: 3rem 1rem;
+}
+#add-section .container button.add-btn {
+	background: rgb(0, 255, 0);
+
+}
+#add-section .container button.deduct-btn {
+	background: rgb(255, 57, 57);
+
+}
+#add-section .container button:hover {
+	background: white;
+	color: black;
+}
+.buttons{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
